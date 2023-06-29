@@ -2,7 +2,7 @@
 ### *Trainee/Junior Frontend Developer*
 ---
 ### Contacts
- * Phone: +375 (33) 649-27-49
+ * Phone: +375 (29) 131-54-26
  * E-mail: dholets99@gmail.com
  * Telegram: @dholets99
  * LinkedIn: [dholets99](www.linkedin.com/in/dholets99)
@@ -34,12 +34,16 @@ function digital_root(n) {
   Architect /
   2017-2021
 
+* ##### Euphrosyne Polotskaya State University of Polotsk
+  Architect /
+  2023-2025
+
 * ##### Computer Academy STEP
   UX/UI /
   2021-2022
   
 * ##### The Rolling Scopes School 
-  Курс JS/Frontend-разработка. Stage#1 / 
+  Курс JS/Frontend-разработка. Stage#0 / 
   In progress
 
 ---

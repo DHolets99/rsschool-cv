@@ -3,6 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./styles/style.css">
     <title>CV Darya Holets</title>
 </head>
 <body>
@@ -26,75 +27,163 @@
                         <a href="#education">Education</a>
                     </li>
                     <li class="nav_item">
-                        <a href="#languages">Languages</a>
+                        <a href="#lang">Languages</a>
                     </li>
                 </ul>
             </nav>
         </div>
     </header>
     <main class="main">
-        <div class="wrapper">
-            <section id="about">
-                <h1 class="about_name">Darya Holets</h1>
-                <h3 class="about_desc">Trainee/Junior Frontend Developer</h3>
-                <p class="about_more">Hi, my name's Darya, and I'm a begginer frontend developer</p>
+        <div class="main_wrapper wrapper">
+            <section class="about" id="about">
+                <div class="about_context">
+                    <h1 class="about_name">Darya Holets</h1>
+                    <h3 class="about_desc">Entry-Level Front-End
+                        Developer</h3>
+                    <p class="about_more">Hi, my name's Darya, and I'm a begginer frontend developer.
+                        In the winter of 2022, I completed UX/UI design courses and realized that Front-End
+                        Development is more attractive for me. I have been learnt Front-End since March 2022.
+                        My English level is Intermediate.
+                        I am ambitious and highly motivated person who works responsibly and efficiently. My
+                        qualities such as communicability, flexibility and reliability make me good at teamwork. I am
+                        looking for a job or internship to improve my skills in Development and deepen my
+                        knowledge in this sphere.
+                    </p>
+                </div>
+                <div class="about_img">
+                    <img src="./assets/DSC_0255.png" alt="CV-photo" class="about_photo">
+                </div>
             </section>
-    
-            <section id="contacts">
-                <h3 class="contacts_heading">Contacts</h3>
-                <ul class="contacts_list"> 
-                    <li class="contacts_item">Phone: +375 (29) 131-54-26</li>
-                    <li class="contacts_item">E-mail: dholets99@gmail.com</li>
-                    <li class="contacts_item">Telegram: @dholets99</li>
-                    <li class="contacts_item">LinkedIn: www.linkedin.com/in/dholets99</li>
+
+            <div class="contacts-skills twix">
+                <section class="contacts" id="contacts">
+                    <div class="contacts_heading heading">
+                        <h3 class="contacts_caption caption">Contacts</h3>
+                        <div class="contacts_line line"></div>
+                    </div>
+                    <ul class="contacts_list"> 
+                        <li class="contacts_item">Phone: +375 (29) 131-54-26</li>
+                        <li class="contacts_item">E-mail: dholets99@gmail.com</li>
+                        <li class="contacts_item">Telegram: @dholets99</li>
+                        <li class="contacts_item">LinkedIn: <a href="www.linkedin.com/in/dholets99">dholets99</a></li>
+                        <li class="contacts_item">Frontend Mentor: <a href="https://www.frontendmentor.io/profile/DHolets99">DHolets99</a></li>
+                    </ul>
+                </section>
+        
+                <section class="skills" id="skills">
+                    <div class="skills_heading heading">
+                        <h3 class="skills_caption">Skills</h3>
+                        <div class="skills_line line"></div>
+                    </div>
+                    <ul class="skills_list">
+                        <li class="skills_item">
+                            HTML5 & CSS3/SASS/SCSS
+                        </li>
+                        <li class="skills_item">
+                            JavaScript
+                        </li>
+                        <li class="skills_item">
+                            Git
+                        </li>
+                        <li class="skills_item">
+                            Webpack
+                        </li>
+                        <li class="skills_item">
+                            Figma, Adobe Photoshop
+                        </li>
+                    </ul>
+                </section>
+            </div>
+
+            <section class="projects" id="projects">
+                <div class="projects_heading heading">
+                    <h3 class="projects_caption">Projects</h3>
+                    <div class="projects_line line"></div>
+                </div>
+                <ul class="projects_list">
+                    <li class="projects_item">
+                        <h4 class="project_name">Game 15 <p class="project_link">
+                            <a href="https://rolling-scopes-school.github.io/dholets99-JSFE2022Q3/codejam/src/index.html">Link</a>
+                        </p></h4>
+                        
+                        <p class="project_desc">
+                                Users should be able to:
+                                <ul class="project_list"> 
+                                    <li class="project_item">Restart game without reloading the page</li>
+                                    <li class="project_item">Turn on / off the sound accompaniment of the movement of tiles</li>
+                                    <li class="project_item">Choose frame size: from 3х3 to 8х8</li>
+                                </ul>
+                        </p>
+                    </li>
+                    <li class="projects_item">
+                        <h4 class="project_name">App For Tips<p class="project_link">
+                            <a href="https://dholets99.github.io/AppForTips/">Link</a>
+                        </p></h4>
+                        
+                        <p class="project_desc">
+                                Users should be able to:
+                                <ul class="project_list"> 
+                                    <li class="project_item">View the optimal layout for the app depending on their device's screen size</li>
+                                    <li class="project_item">See hover states for all interactive elements on the page   </li>
+                                    <li class="project_item">Calculate the correct tip and total cost of the bill per person</li>
+                                </ul>
+                        </p>
+                    </li>
+                    <li class="projects_item">
+                        <h4 class="project_name">Design Portfolio<p class="project_link">
+                            <a href="https://dholets99.github.io/DesignPortfolio/">Link</a>
+                        </p></h4>
+                        
+                        <p class="project_desc">
+                                Users should be able to:
+                                <ul class="project_list"> 
+                                    <li class="project_item">View the optimal layout for the app depending on their device's screen size</li>
+                                    <li class="project_item">See hover states for all interactive elements on the page   </li>
+                                    <li class="project_item">Navigate the slider using either their mouse/trackpad or keyboard</li>
+                                </ul>
+                        </p>
+                    </li>
                 </ul>
             </section>
     
-            <section id="skills">
-                <h3 class="skills_heading">Skills</h3>
-                <ul class="skills_list">
-                    <li class="skills_item">
-                        HTML5
-                    </li>
-                    <li class="skills_item">
-                        CSS3/SASS/SCSS
-                    </li>
-                    <li class="skills_item">
-                        JavaScript
-                    </li>
-                    <li class="skills_item">
-                        Figma, Adobe Photoshop
-                    </li>
-                </ul>
-            </section>
-    
-            <section id="education">
-             <h3 class="education_heading">Education</h3>
-             <ul class="education_list">
-                <li class="education_item">Architect</li>
-                <li class="education_item">UX/UI</li>
-                <li class="education_item">Frontend developer</li>
-             </ul>
-            </section>
-    
-            <section id="lang">
-                <h3 class="lang_heading">Languages</h3>
-                <ul class="lang_list">
-                    <li class="lang_item">Russian: Native</li>
-                    <li class="lang_item">English: <a href="https://www.efset.org/cert/t7AiAX">Upper Intermediate (in progress)</a></li>
-                </ul>
-            </section>
+            <div class="education-lang twix">
+                <section class="education" id="education">
+                    <div class="education_heading heading">
+                        <h3 class="education_caption">Education</h3>
+                        <div class="education_line line"></div>
+                    </div>
+                 <ul class="education_list">
+                    <li class="education_item">Architect (BNTU, PSU)</li>
+                    <li class="education_item">UX/UI (STEP Academy)</li>
+                    <li class="education_item">Frontend developer (The Rolling Scopes School)</li>
+                 </ul>
+                </section>
+        
+                <section class="lang" id="lang">
+                    <div class="lang_heading heading">
+                        <h3 class="lang_caption">Languages</h3>
+                        <div class="lang_line line"></div>
+                    </div>
+                    <ul class="lang_list">
+                        <li class="lang_item">Russian: Native</li>
+                        <li class="lang_item">English: <a href="https://www.efset.org/cert/t7AiAX">Upper Intermediate (in progress)</a></li>
+                    </ul>
+                </section>
+            </div>
+
         </div>
     </main>
     <footer class="footer">
         <div class="wrapper">
-            <p>2023</p>
-            <a href="https://github.com/DHolets99"> 
-                <img src="./github-icon.png" alt="github-icon">
-                DHolets99</a>
-            <a href="https://rs.school/js/">
-                <img src="https://rs.school/images/rs_school_js.svg" alt="RS-logo" class="footer_logo">
-            </a>
+            <div class="line"></div>
+            <div class="footer_context">
+                <p>2023</p>
+                <a href="https://github.com/DHolets99"> 
+                    <img src="./assets/github-icon.png" alt="github-icon" class="footer_logo" ></a>
+                    <a href="https://rs.school/js/" class="rs-logo">
+                        <img src="./assets/rs_school_js.svg" alt="rs-logo" class="footer_logo">
+                    </a>
+            </div>
         </div>
     </footer>
 </body>
